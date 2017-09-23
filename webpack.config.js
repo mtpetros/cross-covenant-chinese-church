@@ -27,7 +27,7 @@ module.exports = {
             //CSS
             {
                 test: /\.scss$/,
-                include: path.join(__dirname, '/src/components'),
+                include: path.join(__dirname, '/src/styling'),
                 use: [{
                     loader: "style-loader"
                 }, {

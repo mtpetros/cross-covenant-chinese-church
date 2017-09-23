@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import routes from './components/routes'
+import router from './components/router'
 
 window.React = React
 
 ReactDOM.render((
-	routes), 
+	router), 
 	document.getElementById('react-container'))

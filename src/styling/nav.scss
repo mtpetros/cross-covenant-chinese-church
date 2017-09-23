@@ -1,0 +1,57 @@
+@import 'reset';
+
+header {
+    height: 60px;
+    nav#main-menu {
+        background-color: darkgrey;
+        border-bottom: 2px solid black;
+        margin: 0 auto;
+        width: 750px;
+        height: 60px;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li.menu-bar-item {
+
+                .bar-link {
+                    display: block;
+                    padding: 8px;
+                    background-color: #dddddd;
+                    margin: 0 10px 0 10px;
+                    text-decoration: none;
+
+                }
+
+                ul.drop-down {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+ul#primary-left {
+
+    li.menu-bar-item {
+        float: left;
+    }
+}
+
+ul#primary-right {
+
+    li.menu-bar-item {
+        float: right;
+    }
+}
+
+
+
+
+
+// a {
+//     display: block;
+//     padding: 8px;
+//     background-color: #dddddd;
+// }
