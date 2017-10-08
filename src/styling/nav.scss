@@ -1,34 +1,112 @@
 @import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 header {
-    height: 60px;
+    font-family: 'Playfair Display', serif;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #660202;
+    border-bottom: 2px solid black;
     nav#main-menu {
-        background-color: darkgrey;
-        border-bottom: 2px solid black;
+        overflow: visible;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         margin: 0 auto;
-        width: 750px;
-        height: 60px;
+        width: 950px;
+        height: 80px;
         ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
 
             li.menu-bar-item {
+                margin: auto;
 
                 .bar-link {
                     display: block;
                     padding: 8px;
-                    background-color: #dddddd;
+                    font-size: 25px;
+                    color: white;
+                    // background-color: #dddddd;
                     margin: 0 10px 0 10px;
                     text-decoration: none;
 
                 }
 
+                // .drop-down-items {
+                //     display: none;
+                //     position: fixed;
+                //     background-color: #926666;
+                //     padding: 0 5px;
+                //     transition: display 2s;
+                // }
+
                 ul.drop-down {
                     display: none;
+                    background-color: #DA2323;
+                    margin: 0;
+                    padding: 5px 0;
+                    font-size: 15px;
+                    text-align: center;
+                    position: absolute;
+
+                    li {
+                        width: 125px;
+                        margin: 10px 0;
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: arial;
+                        }
+                    }
+
+                    li:hover {
+                        background-color: #D45757;
+                    } 
+                } 
+            }
+
+            li.menu-bar-item:hover {
+                .drop-down {
+                    display: block;
+
+                    animation: fadeInFromNone 0.5s ease-out;
+
+                    @keyframes fadeInFromNone {
+                        0% {
+                            display: none;
+                            opacity: 0;
+                        }
+                    
+                        1% {
+                            display: block;
+                            opacity: 0;
+                        }
+                    
+                        100% {
+                            display: block;
+                            opacity: 1;
+                        }
+                    }
+                                  
                 }
             }
-        }
+
+                // ul.drop-down:hover {
+                //     background-color: rgb(223, 83, 83);
+                //     display: block;
+                // }
+
+            
+            }
+
+            
+
+        // .menu-logo {
+        //     margin: 0 auto;
+        // }
     }
 }
 
