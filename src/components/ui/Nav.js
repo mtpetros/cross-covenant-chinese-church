@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import '../../styling/nav.scss'
 
 const Nav = () => (
     <header>

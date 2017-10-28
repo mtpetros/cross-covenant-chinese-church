@@ -12,9 +12,9 @@ header {
 
     nav#menu-cont {
         width: 100%;
-        height: 80px;
-        background-color: #660202;
-        border-bottom: 2px solid black;
+        height: 190px;
+        background-color: #400101;
+        // border-bottom: 2px solid black;
 
         div#main-menu {
             overflow: visible;
@@ -22,13 +22,14 @@ header {
             justify-content: space-between;
             align-items: center;
             margin: 0 auto;
-            width: 950px;
+            width: 80%;
             height: 80px;
             border-bottom: 2px solid black;
             ul {
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
+                flex: 1;
 
                 li.menu-bar-item {
                     margin: auto;
@@ -54,14 +55,14 @@ header {
 
                     ul.drop-down {
                         display: none;
-                        background-color: #792222;
+                        background-color: rgba(0,0,0,0.55);
                         margin: 0;
                         padding: 5px 0;
                         font-size: 15px;
                         text-align: center;
                         position: absolute;
                         border-radius: 2px;
-                        opacity: .75;
+                        opacity: 1;
 
                         li {
                             width: 125px;
@@ -100,7 +101,7 @@ header {
                         
                             100% {
                                 display: block;
-                                opacity: .75;
+                                opacity: 1;
                             }
                         }
 
@@ -137,25 +138,29 @@ header {
                 }
                 
                 ul#primary-left {
-                    
+                    flex: 5;
+                    margin-left: auto;
                     li.menu-bar-item {
-                        float: left;
+                        float: right;
                     }
                 }
                 
                 ul#menu-logo {
+                    flex: 2;
                     z-index: 1;
                 
                     li > img {
-                        margin-top: 77px;
-                        height: 121px;
+                        display: block;
+                        margin: 108px auto 0 auto;
+                        height: 180px;
                     }
                 }
                 
                 ul#primary-right {
-                
+                    flex: 5;
+                    margin-right: auto;
                     li.menu-bar-item {
-                        float: right;
+                        float: left;
                     }
                 }
                 
@@ -167,17 +172,17 @@ header {
     }
 }
 
-header::after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: block;
-    left: 0;
-    top: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.00625) 0%, rgba(0,0,0,0.0125) 20%, rgba(0,0,0,0.25) 60%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    pointer-events: none;
-}
+// header::after {
+//     content: "";
+//     position: absolute;
+//     height: 100%;
+//     width: 100%;
+//     display: block;
+//     left: 0;
+//     top: 0;
+//     background: linear-gradient(to top, rgba(0,0,0,0.00625) 0%, rgba(0,0,0,0.0125) 20%, rgba(0,0,0,0.25) 60%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+//     pointer-events: none;
+// }
 
 
 
