@@ -17,8 +17,94 @@
     
             #cccc-title-image {
                 display: block;
-                margin: 50px auto;
-                height: 110px;
+                margin: 0 auto;
+                height: 145px;
+            }
+        }
+    }
+
+    .content-areas-container {
+        display: flex;
+        // justify-content: space-around;
+    }
+
+    .content-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:50px 25px;
+
+        h2 {
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 22px;
+            line-height: 25px;
+        }
+    }
+
+    #content-area-primary {
+        height: 300px;
+    }
+
+    #content-area-times {
+        flex: 1;
+        background-image: url('/assets/img/times-bg.jpg');
+        background-attachment: fixed;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size: 880px;
+        // width: 750px;
+        // margin: 0 auto 0 0;
+
+        #times-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: rgba(0,0,0, 0.5);
+            height: 100px;
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    #content-area-location {
+        flex: 1;
+        background-image: url('/assets/img/location-bg.jpg');
+        background-attachment: fixed;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 880px;
+        // width: 750px;
+        // margin: 0 auto 0 0;
+
+        #location-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: rgba(0,0,0, 0.5);
+            height: 100px;
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    #content-area-contact {
+        display: flex;
+        flex-direction: row;
+        padding: 75px 0 10px 0;
+        div {  
+            flex: 1;
+
+            p {
+                text-align: center;
+                font-size: 16px;
+                color: #222222;
             }
         }
     }

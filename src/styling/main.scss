@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Spectral+SC');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Spectral+SC');
 @import './components/home.scss';
 
 main {
     margin: 0 auto;
     // padding-top: 190px;
     background-color: #040403;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Barlow', sans-serif;    
     color: white;
     text-align: center;
 
@@ -19,6 +19,7 @@ main {
     }
 
     h2 {
+        font-family: 'Spectral SC', serif;
         font-size: 35px;
     }
 }
