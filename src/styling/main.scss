@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Spectral+SC');
 @import './components/home.scss';
 
 main {
-    height: 500px;
-    width: 98%;
     margin: 0 auto;
-    padding-top: 170px;
-    background-color: #660202;
+    // padding-top: 190px;
+    background-color: #040403;
+    font-family: 'Roboto', sans-serif;    
+    color: white;
+    text-align: center;
+
+    div {
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-family: 'Spectral SC', serif;
+        font-size: 78px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
 }

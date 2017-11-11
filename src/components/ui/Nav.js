@@ -10,7 +10,6 @@ class Nav extends Component {
 
     render() {
         const {navClasses} = this.props;
-        console.log({navClasses});
     return (
     <header>
         <nav id="menu-cont" className={navClasses}>

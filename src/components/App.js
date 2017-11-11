@@ -19,13 +19,7 @@ class App extends Component {
     }
 
     handleScroll() {
-
-        if (window.scrollY >= 20) {
-            this.setState({
-                navClasses: ['shift']
-            });
-            console.log(this.state);
-        }
+        window.scrollY >= 140 && this.state.navClasses !== [] ? this.setState({ navClasses: ['shift'] }) : this.setState({ navClasses: [] }); 
     }
 
     render() {
