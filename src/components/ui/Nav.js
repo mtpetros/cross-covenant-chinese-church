@@ -1,8 +1,19 @@
+import { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-const Nav = () => (
+
+class Nav extends Component {
+    constructor(props) {
+        super(props);
+     }   
+
+
+    render() {
+        const {navClasses} = this.props;
+        console.log({navClasses});
+    return (
     <header>
-        <nav id="menu-cont">
+        <nav id="menu-cont" className={navClasses}>
             <div id="main-menu">
                 <ul id="primary-left">
                     <li className="menu-bar-item">
@@ -68,6 +79,7 @@ const Nav = () => (
             </div>
         </nav>
     </header>
-)
+)}
+}
 
 export default Nav
