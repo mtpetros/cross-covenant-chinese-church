@@ -1,4 +1,12 @@
-var path = require('path');
+const webpack = require('webpack');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const path = require('path');
+
+new webpack.DefinePlugin({
+    'process.env.NODE_ENV': JSON.stringify('production')
+  }),
+
+new webpack.optimize.UglifyJsPlugin()
 
 module.exports = {
     entry: "./src/index.js",
