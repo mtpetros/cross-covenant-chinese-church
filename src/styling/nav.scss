@@ -8,20 +8,20 @@ header {
     // background: linear-gradient(to top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
 
     nav.shift {
-        height: 80px !important;
+        height: 85px !important;
         background-color: rgba(64,1,1,0.95) !important;
 
         #menu-logo li > img {
             height: 80px !important;
             margin: 0 auto !important;
-            transform: translateY(0) !important;
+            transform: translateY(5px) !important;
         }
     }
     
     nav#menu-cont {
         font-family: 'Spectral SC', serif;
         width: 100%;
-        height: 190px;
+        height: 195px;
         background-color: rgba(64,1,1,0.5);
         transition: height .075s ease-in, background-color .075s ease-in;
         // border-bottom: 2px solid black;
@@ -162,7 +162,7 @@ header {
                     li > img {
                         display: block;
                         margin: auto;
-                        transform: translateY(50px);
+                        transform: translateY(65px);
                         height: 180px;
                         transition: height .075s ease-in, transform .075s ease-in;
                     }
