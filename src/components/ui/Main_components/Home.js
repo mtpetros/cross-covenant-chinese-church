@@ -10,7 +10,7 @@ const Home = () => (
 
         <div className="content-area" id="content-area-primary">
             <h2>Phasellus placerat mi vel finibus dapibus</h2>
-            <p>Sed rhoncus accumsan congue. Proin tempus sem tellus, ac luctus urna maximus a.</p><p>Integer vel convallis felis, et hendrerit libero.</p><p>Morbi placerat condimentum orci, eu placerat quam cursus consequat.</p>
+            <p>Sed rhoncus accumsan congue. Prodin tempus sem tellus, ac luctus urna maximus a.</p><p>Integer vel convallis felis, et hendrerit libero.</p><p>Morbi placerat condimentum orci, eu placerat quam cursus consequat.</p>
         </div>
 
         <div className="content-areas-container">
