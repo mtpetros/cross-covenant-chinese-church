@@ -1,5 +1,6 @@
 import { Component } from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 class Nav extends Component {
@@ -39,7 +40,7 @@ class Nav extends Component {
                     <li className="menu-bar-item">
                         <Link to='/about' className='bar-link'>About</Link>
                         <ul className="drop-down">
-                            <li><Link to='/about#location'>Vision and Values</Link></li>
+                            <li><Link to='/about#vision-values'>Vision and Values</Link></li>
                             <li><Link to='/about#beliefs'>What we Believe</Link></li>
                             <li><Link to='/about#leadership'>Leadership</Link></li>
                         </ul>
@@ -53,8 +54,8 @@ class Nav extends Component {
                     <li className="menu-bar-item">
                         <Link to='/missions' className='bar-link'>Missions</Link>
                         <ul className="drop-down">
-                            <li><Link to='/mission#local'>Local</Link></li>
-                            <li><Link to='/mission#international'>International</Link></li>
+                            <li><Link to='/missions#local'>Local</Link></li>
+                            <li><Link to='/missions#international'>International</Link></li>
                         </ul>
                     </li>
                     <li className="menu-bar-item">

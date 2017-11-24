@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow|Spectral+SC');
-@import './components/home.scss';
 
 main {
     margin: 0 auto;
@@ -21,5 +20,60 @@ main {
     h2 {
         font-family: 'Spectral SC', serif;
         font-size: 35px;
+    }
+
+    .page-container {
+        .head-banner {
+            background-attachment: fixed;
+            // background-position: left top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 690px;
+            padding: 240px 0 50px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: rgba(255,255,255,0.07);
+        
+            .banner-contents {
+        
+                .head-image {
+                    display: block;
+                    margin: 0 auto;
+                    height: 145px;
+                }
+            }
+        }
+        
+        .content-area {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding:50px 25px;
+        
+            h2 {
+                margin-bottom: 25px;
+            }
+        
+            p {
+                font-size: 22px;
+                line-height: 25px;
+            }
+        }
+
+        #content-area-contact {
+            display: flex;
+            flex-direction: row;
+            padding: 75px 0 10px 0;
+            div {  
+                flex: 1;
+        
+                p {
+                    text-align: center;
+                    font-size: 16px;
+                    color: #222222;
+                }
+            }
+        }
     }
 }

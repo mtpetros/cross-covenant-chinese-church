@@ -1,0 +1,43 @@
+#about-container {
+    .head-banner {
+        background-image: url('/assets/img/main-banner-bg.jpg');
+    }    
+
+    #vision-values {
+        .main-content-parallax {
+            background-image: url('/assets/img/times-bg.jpg');
+            background-position: right bottom;
+        }    
+    }
+
+    #beliefs {
+        .main-content-parallax {
+            background-image: url('/assets/img/times-bg.jpg');
+            background-position: left bottom;
+        }    
+    }
+
+    #leadership {
+        .main-content-parallax {
+            background-image: url('/assets/img/times-bg.jpg');
+            background-position: right bottom;
+        }    
+    }
+    
+    .content-area-main {
+        display: flex;
+        flex-direction: row;
+        .main-content-text {
+            flex: 2;
+        }
+    
+        .main-content-parallax {
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 880px;
+            flex: 1;
+        }
+    }
+}
+
+

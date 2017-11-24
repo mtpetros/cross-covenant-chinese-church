@@ -1,8 +1,8 @@
 import { Component } from 'react'
 import Nav from './ui/Nav'
 import Main from './ui/Main'
-import NavStyles from  '../styling/nav.scss'
-import MainStyles from '../styling/main.scss'
+import navStyles from  '../styling/nav.scss'
+import mainStyles from '../styling/main.scss'
 
 class App extends Component {
     constructor(props) {
@@ -25,8 +25,8 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Nav style= { NavStyles } navClasses= { this.state.navClasses }/>
-                <Main style= { MainStyles } />
+                <Nav style= { navStyles } navClasses= { this.state.navClasses }/>
+                <Main style= { mainStyles } />
             </div>)
     }
 }
