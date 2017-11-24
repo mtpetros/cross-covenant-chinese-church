@@ -29,6 +29,13 @@
         flex-direction: row;
         .main-content-text {
             flex: 2;
+            h2 {
+                background-color: rgb(64,1,1);
+            }
+
+            p {
+                margin: 0 10px;
+            }
         }
     
         .main-content-parallax {
