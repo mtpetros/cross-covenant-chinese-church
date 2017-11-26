@@ -1,4 +1,7 @@
 var path = require('path');
+var webpack = require('webpack');
+var UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+
 
 module.exports = {
     entry: "./src/index.js",
@@ -12,6 +15,14 @@ module.exports = {
         contentBase: './public',
         port: 3000
     },
+    plugins: [
+        new webpack.DefinePlugin({
+            'process.env':{
+              'NODE_ENV': JSON.stringify('production')
+            }
+          }),
+        new webpack.optimize.UglifyJsPlugin()
+    ],
     module: {
         loaders: [
             //JS
