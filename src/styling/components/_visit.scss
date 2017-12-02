@@ -1,0 +1,51 @@
+#visit-container {
+    .head-banner {
+        background-image: url('/assets/img/main-banner-bg.jpg');
+    }    
+
+    #time-location {
+
+        .main-content-parallax {
+            background-image: url('/assets/img/times-bg.jpg');
+            background-position: right bottom;
+        }    
+    }
+
+    #location-map {
+        padding: 0 25px;
+        height: 300px;
+    }
+
+    #what-to-expect {
+        .main-content-parallax {
+            background-image: url('/assets/img/times-bg.jpg');
+            background-position: left bottom;
+        }    
+    }
+
+    
+    .content-area-main {
+        display: flex;
+        flex-direction: row;
+        padding-top: 90px;
+        .main-content-text {
+            flex: 2;
+            h2 {
+                background-color: rgb(64,1,1);
+            }
+
+            p {
+                margin: 0 10px;
+            }
+        }
+    
+        .main-content-parallax {
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 880px;
+            flex: 1;
+        }
+    }
+}
+
+
