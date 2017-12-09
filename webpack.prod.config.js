@@ -10,11 +10,6 @@ module.exports = {
         filename: "bundle.min.js",
         publicPath: "/assets/"
     },
-    devServer: {
-        inline: true,
-        contentBase: './public',
-        port: 3000
-    },
     plugins: [
         new webpack.DefinePlugin({
             'process.env':{
