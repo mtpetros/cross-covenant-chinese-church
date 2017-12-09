@@ -33,7 +33,7 @@ class Nav extends Component {
                     <li className="menu-bar-item">
                         <Link to='/visit' className='bar-link'>Visit</Link>
                         <ul className="drop-down">
-                            <li><Link to='/visit#time-and-location'>Time and Location</Link></li>
+                            <li><Link to='/visit#time-location'>Time and Location</Link></li>
                             <li><Link to='/visit#what-to-expect'>What to Expect</Link></li>
                         </ul>
                     </li>
