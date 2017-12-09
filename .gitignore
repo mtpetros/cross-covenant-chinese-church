@@ -60,6 +60,4 @@ typings/
 # webpack configuration
 webpack.config.js
 
-public/assets/bundle.min.js
-
 package.json
