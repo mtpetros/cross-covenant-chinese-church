@@ -61,3 +61,5 @@ typings/
 webpack.config.js
 
 public/assets/bundle.min.js
+
+package.json
