@@ -4,7 +4,7 @@
   "description": "Cross Covenant Chinese Church in Charlotte, NC",
   "main": "index.js",
   "scripts": {
-    "dev": "npm start & ( webpack --config ./webpack.dev.config.js && webpack-dev-server --progress --colors)",
+    "dev": "webpack --config ./webpack.dev.config.js && webpack-dev-server --progress --colors",
     "prod": "webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node server/index.js"
   },
