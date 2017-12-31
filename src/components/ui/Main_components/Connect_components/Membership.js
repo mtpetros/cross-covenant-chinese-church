@@ -1,14 +1,14 @@
-const About = () => (
-    <div id = "about-container" className="page-container">
+const Membership = () => (
+    <div id = "membership-container" className="page-container">
     <div className="head-banner">
         <div className="banner-contents">
-            <h1>about our church</h1>
+            <h1>Membership</h1>
         </div>
     </div>
 
-    <div id="vision-values" className="content-area content-area-main">
+    <div id="about-membership" className="content-area content-area-main">
         <div className="main-content-text">
-            <h2>Vision and Values</h2>
+            <h2>About Membership</h2>
             <div className="text-right">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum orci et lectus bibendum fermentum. Praesent ut arcu non lorem consectetur vehicula non vitae magna. Morbi ut felis sem. Proin vitae tincidunt nisi. Aliquam vitae est at tortor malesuada varius.</p>
             <br/>
@@ -20,7 +20,7 @@ const About = () => (
         <div className="main-content-parallax"></div>
     </div>
 
-    <div id="beliefs" className="content-area content-area-main">
+    {/* <div id="beliefs" className="content-area content-area-main">
         <div className="main-content-parallax"></div>
         <div className="main-content-text">
             <h2>What We Believe</h2>
@@ -32,9 +32,9 @@ const About = () => (
             <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras sagittis diam orci. Donec eros nisi, molestie ac turpis ut, iaculis vehicula eros. Integer vitae lorem ac erat sodales cursus. Sed id scelerisque ligula. Vivamus accumsan sapien ac odio luctus consequat.</p>
             </div>
         </div>
-    </div>
+    </div> */}
 
-    <div id="leadership" className="content-area content-area-main">
+    {/* <div id="leadership" className="content-area content-area-main">
         <div className="main-content-text">
             <h2>Our Leaders</h2>
             <div className="text-right"> 
@@ -46,7 +46,7 @@ const About = () => (
             </div> 
         </div>
         <div className="main-content-parallax"></div>
-    </div>
+    </div> */}
 
 
 
@@ -56,4 +56,4 @@ const About = () => (
     </div>
 )
 
-export default About
+export default Membership
