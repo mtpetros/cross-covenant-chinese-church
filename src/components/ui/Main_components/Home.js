@@ -1,3 +1,17 @@
+import React from 'react';
+
+const welcomeContent = (
+    <div>
+        <p>Welcome to Cross Covenant Chinese Church! We are a growing community in Charlotte consisting of multi-ethnic groups of Christians who have been transformed by the Gospel of Jesus Christ, and who want to know, worship, defend, and live for God through proclaiming Jesus Christ to the Chinese community both locally and globally.</p>
+        <br/>
+        <p>We serve Chinese primarily, yet we love our intercultural atmosphere. Our bi-lingual system makes us a family of different lanuages and cultures.</p>
+        <br/>
+        <p>We warmly invite you to join us on Sundays to hear God's Word preached, to worship and fellowship together, and to grow in the knowledge and faith in Jesus Christ.</p>
+        <br/>
+        <p>If you are new to Cross Covenant Chinese Church, or if you have any questions, please feel free to contact us!</p>
+    </div>
+);
+
 const Home = () => (
     <div id="home-container" className="page-container">
         <div className="head-banner">
@@ -9,8 +23,8 @@ const Home = () => (
         </div>
 
         <div className="content-area content-area-primary">
-            <h2>Phasellus placerat mi vel finibus dapibus</h2>
-            <p>Sed rhoncus accumsan congue. Proin tempus sem tellus, ac luctus urna maximus a.</p><p>Integer vel convallis felis, et hendrerit libero.</p><p>Morbi placerat condimentum orci, eu placerat quam cursus consequat.</p>
+            <h2>Hi! 您好</h2>
+            {welcomeContent}
         </div>
 
         <div className="content-areas-secondary">
