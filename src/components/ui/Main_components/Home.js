@@ -4,11 +4,7 @@ const welcomeContent = (
     <div>
         <p>Welcome to Cross Covenant Chinese Church! We are a growing community in Charlotte consisting of multi-ethnic groups of Christians who have been transformed by the Gospel of Jesus Christ, and who want to know, worship, defend, and live for God through proclaiming Jesus Christ to the Chinese community both locally and globally.</p>
         <br/>
-        <p>We serve Chinese primarily, yet we love our intercultural atmosphere. Our bi-lingual system makes us a family of different lanuages and cultures.</p>
-        <br/>
-        <p>We warmly invite you to join us on Sundays to hear God's Word preached, to worship and fellowship together, and to grow in the knowledge and faith in Jesus Christ.</p>
-        <br/>
-        <p>If you are new to Cross Covenant Chinese Church, or if you have any questions, please feel free to contact us!</p>
+        <p>We serve Chinese primarily, yet we love our intercultural atmosphere. Our bi-lingual system makes us a family of different lanuages and cultures. We warmly invite you to join us on Sundays to hear God's Word preached, to worship and fellowship together, and to grow in the knowledge and faith in Jesus Christ. If you are new to Cross Covenant Chinese Church, or if you have any questions, please feel free to contact us!</p>
     </div>
 );
 
