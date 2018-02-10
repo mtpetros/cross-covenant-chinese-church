@@ -6,6 +6,10 @@ import Visit from './Main_components/Visit'
 import Children from './Main_components/Connect_components/Children'
 import Events from './Main_components/Connect_components/Events'
 import Membership from './Main_components/Connect_components/Membership'
+import SmallGroup from './Main_components/Connect_components/SmallGroup'
+import Men from './Main_components/Connect_components/Men'
+import Women from './Main_components/Connect_components/Women'
+import Youth from './Main_components/Connect_components/Youth'
 // import Connect from './Main_components/Connect'
 // import Missions from './Main_components/Missions'
 // import Learn from './Main_components/Learn'
@@ -24,7 +28,11 @@ const Main = () => (
       <Route path='/children' component={Children} style={''}/>
       <Route path='/events' component={Events} style={''}/>
       <Route path='/membership' component={Membership} style={''}/>
-      {/* <Route path='/connect' component={Connect}/>
+      <Route path='/smallgroup' component={SmallGroup} style={''}/>
+      <Route path='/men' component={Men} style={''}/>
+      <Route path='/women' component={Women} style={''}/>
+      <Route path='/youth' component={Youth} style={''}/>
+  {/* <Route path='/connect' component={Connect}/>
       <Route path='/missions' component={Missions}/>
       <Route path='/learn' component={Learn}/>
       <Route path='/contact' component={Contact}/> */}
