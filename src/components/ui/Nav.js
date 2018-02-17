@@ -25,7 +25,7 @@ class Nav extends Component {
                             <li><Link to='/women'>Women's Ministry</Link></li>
                             <li><Link to='/youth'>Youth Ministry</Link></li>
                             <li><Link to='/children'>Children's Ministry</Link></li>
-                            <li><Link to='/serving'>Serve</Link></li>
+                            <li><Link to='/serve'>Serve</Link></li>
                             <li><Link to='/membership'>Membership</Link></li>
                             <li><Link to='/emailsignup'>Email Signup</Link></li>
                         </ul>
@@ -55,16 +55,15 @@ class Nav extends Component {
                         <Link to='/missions' className='bar-link'>Missions</Link>
                         <ul className="drop-down">
                             <li><Link to='/missions#local'>Local</Link></li>
-                            <li><Link to='/missions#international'>International</Link></li>
+                            {/* <li><Link to='/missions#international'>International</Link></li>*/}
                         </ul>
                     </li>
                     <li className="menu-bar-item">
                         <Link to='/learn' className='bar-link'>Learn</Link>
                         <ul className="drop-down">
-                            <li><Link to='/sermons'>Sermons</Link></li>
                             <li><Link to='/adultseminar'>Adult Seminar</Link></li>
-                            <li><Link to='/songs'>Songs for Worship</Link></li>
-                            <li><Link to='/christianeducation'>Christian Education</Link></li>
+                            {/*<li><Link to='/sermons'>Sermons</Link></li>
+                            <li><Link to='/songs'>Songs for Worship</Link></li>*/}
                         </ul>
                     </li>
                     <li className="menu-bar-item">

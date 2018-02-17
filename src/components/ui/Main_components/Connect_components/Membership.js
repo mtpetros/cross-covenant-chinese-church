@@ -1,59 +1,20 @@
-const Membership = () => (
+import React from 'react';
+
+import Banner from '../library/Banner';
+import ContentAreaMain from '../library/ContentAreaMain';
+
+const membershipContent = (
+    <div>
+      <p>In 1 Corinthians 12, the Bible talks about the idea of being members of one body, so we value the idea membership. Anyone is welcome to attend as long as they like without becoming a member, but we do believe that in the long run we will be a better church as individuals commit their gifts to use in the community. We also believe that you will benefit more from our community life by becoming a faithful member. You can learn more in our membership classes, which happen several times throughout the year.</p><br/>
+      <p>Membership Schedule for 2018 will be accounced soon.</p><br/>
+  </div>
+);
+
+const Membership  = () => (
     <div id = "membership-container" className="page-container">
-    <div className="head-banner">
-        <div className="banner-contents">
-            <h1>Membership</h1>
-        </div>
-    </div>
-
-    <div id="about-membership" className="content-area content-area-main">
-        <div className="main-content-text">
-            <h2>About Membership</h2>
-            <div className="text-right">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum orci et lectus bibendum fermentum. Praesent ut arcu non lorem consectetur vehicula non vitae magna. Morbi ut felis sem. Proin vitae tincidunt nisi. Aliquam vitae est at tortor malesuada varius.</p>
-            <br/>
-            <p>Integer non malesuada odio. Aliquam arcu nisl, tempor vitae facilisis at, vulputate luctus mi. Duis in dolor libero. Nam sodales dui consequat maximus dignissim. Sed vitae metus sit amet massa faucibus consectetur vel eu dui. Phasellus in posuere libero, id volutpat nisi.</p>
-            <br/>
-            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras sagittis diam orci. Donec eros nisi, molestie ac turpis ut, iaculis vehicula eros. Integer vitae lorem ac erat sodales cursus. Sed id scelerisque ligula. Vivamus accumsan sapien ac odio luctus consequat.</p>
-            </div>
-        </div>
-        <div className="main-content-parallax"></div>
-    </div>
-
-    {/* <div id="beliefs" className="content-area content-area-main">
-        <div className="main-content-parallax"></div>
-        <div className="main-content-text">
-            <h2>What We Believe</h2>
-            <div className="text-left">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum orci et lectus bibendum fermentum. Praesent ut arcu non lorem consectetur vehicula non vitae magna. Morbi ut felis sem. Proin vitae tincidunt nisi. Aliquam vitae est at tortor malesuada varius.</p>
-            <br/>
-            <p>Integer non malesuada odio. Aliquam arcu nisl, tempor vitae facilisis at, vulputate luctus mi. Duis in dolor libero. Nam sodales dui consequat maximus dignissim. Sed vitae metus sit amet massa faucibus consectetur vel eu dui. Phasellus in posuere libero, id volutpat nisi.</p>
-            <br/>
-            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras sagittis diam orci. Donec eros nisi, molestie ac turpis ut, iaculis vehicula eros. Integer vitae lorem ac erat sodales cursus. Sed id scelerisque ligula. Vivamus accumsan sapien ac odio luctus consequat.</p>
-            </div>
-        </div>
-    </div> */}
-
-    {/* <div id="leadership" className="content-area content-area-main">
-        <div className="main-content-text">
-            <h2>Our Leaders</h2>
-            <div className="text-right"> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum orci et lectus bibendum fermentum. Praesent ut arcu non lorem consectetur vehicula non vitae magna. Morbi ut felis sem. Proin vitae tincidunt nisi. Aliquam vitae est at tortor malesuada varius.</p>
-            <br/>
-            <p>Integer non malesuada odio. Aliquam arcu nisl, tempor vitae facilisis at, vulputate luctus mi. Duis in dolor libero. Nam sodales dui consequat maximus dignissim. Sed vitae metus sit amet massa faucibus consectetur vel eu dui. Phasellus in posuere libero, id volutpat nisi.</p>
-            <br/>
-            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras sagittis diam orci. Donec eros nisi, molestie ac turpis ut, iaculis vehicula eros. Integer vitae lorem ac erat sodales cursus. Sed id scelerisque ligula. Vivamus accumsan sapien ac odio luctus consequat.</p>
-            </div> 
-        </div>
-        <div className="main-content-parallax"></div>
-    </div> */}
-
-
-
-    <div className="content-area" id="content-area-contact">
-        <div><p>ph: (123) 456-78910</p></div><div><p>physical address: 123 Happy Ln. Matthew, NC 28226</p></div><div><p>mailing address: 123 Happy Ln. Matthew, NC 28226</p></div>
-    </div>
+        <Banner title="Membership" />
+        <ContentAreaMain id="about-serving" title="About" textPosition="text-left" content={membershipContent} />
     </div>
 )
 
-export default Membership
+export default Membership 
