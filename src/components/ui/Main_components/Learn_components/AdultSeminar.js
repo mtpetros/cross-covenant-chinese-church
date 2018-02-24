@@ -14,7 +14,7 @@ const adultSeminarContent = (
 
 const AdultSeminar = () => (
     <div id = "adult-seminar-container" className="page-container">
-        <Banner title="Adult Seminar" />
+        <Banner title="Adult Seminar" parallaxImage="/assets/img/adult-seminar-bg.jpg"/>
         <ContentAreaMain position="no-parallax" id="about-adult-seminar" title="About" content={adultSeminarContent} />
     </div>
 )

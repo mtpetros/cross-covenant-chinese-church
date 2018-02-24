@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
+const favicon = require('serve-favicon');
 
 const app = express();
 
@@ -9,6 +10,9 @@ app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:htt
 
 // Serve static assets
 app.use(express.static(path.resolve(__dirname, '..', 'public')));
+
+// favicon
+app.use(favicon(path.resolve(__dirname, 'public', 'assets', 'img', 'favicon.png' )));
 
 // Always return the main index.html, so react-router render the route in the client
 app.get('*', (req, res) => {

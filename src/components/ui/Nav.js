@@ -27,7 +27,7 @@ class Nav extends Component {
                             <li><Link to='/children'>Children's Ministry</Link></li>
                             <li><Link to='/serve'>Serve</Link></li>
                             <li><Link to='/membership'>Membership</Link></li>
-                            <li><Link to='/emailsignup'>Email Signup</Link></li>
+                            {/* <li><Link to='/emailsignup'>Email Signup</Link></li> */}
                         </ul>
                     </li>
                     <li className="menu-bar-item">

@@ -37,7 +37,7 @@ const serviceTimeContent = (
 
 const Contact = () => (
     <div id = "contact-container" className="page-container">
-        <Banner title="Contact" />
+        <Banner title="Contact" parallaxImage="/assets/img/contact-bg.jpg"/>
         <ContentAreaMain position="no-parallax" id="contact-info" title="Contact Us" content={contactContent} />
         <ContentAreaMain position="no-parallax" id="service-time" title="Service Time" content={serviceTimeContent} />
     </div>

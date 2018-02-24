@@ -30,9 +30,6 @@ const SmallGroup = () => (
     <div id = "smallgroup-container" className="page-container">
       <Banner title="Small Group" parallaxImage="/assets/img/smallgroup-bg.jpg"/>
       <ContentAreaMain position="no-parallax" id="small-group" title="Small Group" content={smallGroupContent} />
-      <div className="content-area" id="content-area-contact">
-          <div><p>ph: (123) 456-78910</p></div><div><p>physical address: 123 Happy Ln. Matthew, NC 28226</p></div><div><p>mailing address: 123 Happy Ln. Matthew, NC 28226</p></div>
-      </div>
     </div>
 )
 

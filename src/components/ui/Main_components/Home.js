@@ -14,7 +14,7 @@ const Home = () => (
       <div className="head-banner" style={{backgroundImage: 'url("/assets/img/main-bg.jpg")'}}>
             <div className="banner-contents">
                 <h1>welcome to</h1>
-                <img src="/assets/img/cccctitle-2.png" className="head-image" />
+                <img src="/assets/img/chinese-name.png" className="head-image" />
                 <h2>Cross Covenant Chinese Church</h2>
             </div>
         </div>
@@ -40,10 +40,6 @@ const Home = () => (
                     <p>We meet on Sunday mornings in the chapel at Christ Covenant Church in Matthews, NC.</p>
                 </div>
             </div>
-        </div>
-
-        <div className="content-area" id="content-area-contact">
-            <div><p>ph: (123) 456-78910</p></div><div><p>physical address: 123 Happy Ln. Matthew, NC 28226</p></div><div><p>mailing address: 123 Happy Ln. Matthew, NC 28226</p></div>
         </div>
     </div>
 )

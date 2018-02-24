@@ -4,6 +4,7 @@ import Main from './ui/Main'
 import BottomBar from './ui/BottomBar'
 import navStyles from  '../styling/nav.scss'
 import mainStyles from '../styling/main.scss'
+import bottomBarStyles from '../styling/bottomBar.scss'
 
 class App extends Component {
     constructor(props) {
@@ -28,7 +29,7 @@ class App extends Component {
             <div className="App">
                 <Nav style= { navStyles } navClasses= { this.state.navClasses }/>
                 <Main style= { mainStyles } />
-                <BottomBar />
+                <BottomBar style={bottomBarStyles} />
             </div>)
     }
 }
