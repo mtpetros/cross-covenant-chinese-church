@@ -19,7 +19,7 @@ const serviceAreasContent = (
 const Serve  = () => (
     <div id = "serve-container" className="page-container">
         <Banner title="Serve" />
-        <ContentAreaMain id="about-serving" title="About" textPosition="text-left" content={serviceAreasContent} />
+        <ContentAreaMain position="no-parallax" id="about-serving" title="About" content={serviceAreasContent} />
     </div>
 )
 

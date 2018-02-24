@@ -12,9 +12,9 @@ const eventsContent = (<div><p>The launching Service is on March 25, 10:45am.</p
 
 const Events = () => (
     <div id = "events-container" className="page-container">
-      <Banner title="Announcements and Events" />
-      <ContentAreaMain id="announcements" title="Announcements" textPosition="text-left" parallaxImage="/assets/img/times-bg.jpg" content={announcementsContent} />
-      <ContentAreaMain id="events" title="Events" textPosition="text-left" parallaxImage="/assets/img/times-bg.jpg" content={eventsContent} />
+      <Banner title="Announcements and Events" parallaxImage="/assets/img/events-bg.jpg"/>
+      <ContentAreaMain position="no-parallax" id="announcements" title="Announcements" content={announcementsContent} />
+      <ContentAreaMain position="no-parallax" id="events" title="Events" content={eventsContent} />
       <div className="content-area" id="content-area-contact">
           <div><p>ph: (123) 456-78910</p></div><div><p>physical address: 123 Happy Ln. Matthew, NC 28226</p></div><div><p>mailing address: 123 Happy Ln. Matthew, NC 28226</p></div>
       </div>

@@ -17,7 +17,7 @@ class Nav extends Component {
             <div id="main-menu">
                 <ul id="primary-left">
                     <li className="menu-bar-item">
-                        <Link to='/connect' className='bar-link'>Connect</Link>
+                        <Link to='#' className='bar-link'>Connect</Link>
                         <ul className="drop-down">
                             <li><Link to='/events'>Announcements and Events</Link></li>
                             <li><Link to='/smallgroup'>Small Group</Link></li>
@@ -52,14 +52,14 @@ class Nav extends Component {
                 <ul id="menu-logo"><li><img src="/assets/img/cccclogo.png" /></li></ul>
                 <ul id="primary-right">
                     <li className="menu-bar-item">
-                        <Link to='/missions' className='bar-link'>Missions</Link>
+                      <Link to='/missions' className='bar-link'>Missions</Link>
                         <ul className="drop-down">
                             <li><Link to='/missions#local'>Local</Link></li>
                             {/* <li><Link to='/missions#international'>International</Link></li>*/}
                         </ul>
                     </li>
                     <li className="menu-bar-item">
-                        <Link to='/learn' className='bar-link'>Learn</Link>
+                        <Link to='#' className='bar-link'>Learn</Link>
                         <ul className="drop-down">
                             <li><Link to='/adultseminar'>Adult Seminar</Link></li>
                             {/*<li><Link to='/sermons'>Sermons</Link></li>
@@ -69,9 +69,9 @@ class Nav extends Component {
                     <li className="menu-bar-item">
                         <Link to='/contact' className='bar-link'>Contact</Link>
                         <ul className="drop-down">
-                            <li><Link to='/contact#contactform'>Contact Form</Link></li>
-                            <li><Link to='/contact#contactinfo'>Contact and Location Information</Link></li>
-                            <li><Link to='/contact#servicetime'>Service Time</Link></li>
+                          {/* <li><Link to='/contact#contactform'>Contact Form</Link></li>*/}
+                            <li><Link to='/contact#contact-info'>Contact and Location Information</Link></li>
+                            <li><Link to='/contact#service-time'>Service Time</Link></li>
                         </ul>
                     </li>
                 </ul>

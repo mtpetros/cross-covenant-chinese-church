@@ -14,7 +14,7 @@ const missionsContent = (
 const Missions = () => (
     <div id = "missions-container" className="page-container">
         <Banner title="Missions Ministry" />
-        <ContentAreaMain id="local" title="Local Missions" textPosition="text-left" content={missionsContent} />
+        <ContentAreaMain position="no-parallax" id="local" title="Local Missions" content={missionsContent} />
     </div>
 )
 

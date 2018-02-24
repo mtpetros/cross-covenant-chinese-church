@@ -13,7 +13,7 @@ const membershipContent = (
 const Membership  = () => (
     <div id = "membership-container" className="page-container">
         <Banner title="Membership" />
-        <ContentAreaMain id="about-serving" title="About" textPosition="text-left" content={membershipContent} />
+        <ContentAreaMain position="no-parallax" id="about-serving" title="About" content={membershipContent} />
     </div>
 )
 

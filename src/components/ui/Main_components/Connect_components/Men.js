@@ -11,8 +11,8 @@ const mensContent = (
 
 const Men = () => (
     <div id = "mens-ministry-container" className="page-container">
-      <Banner title="Men's Ministry" />
-      <ContentAreaMain id="mens-ministry" title="Men's Ministry" textPosition="text-left" content={mensContent} />
+      <Banner title="Men's Ministry" parallaxImage="/assets/img/men-bg.jpg"/>
+      <ContentAreaMain position="no-parallax" id="mens-ministry" title="Men's Ministry" content={mensContent} />
       <div className="content-area" id="content-area-contact">
           <div><p>ph: (123) 456-78910</p></div><div><p>physical address: 123 Happy Ln. Matthew, NC 28226</p></div><div><p>mailing address: 123 Happy Ln. Matthew, NC 28226</p></div>
       </div>

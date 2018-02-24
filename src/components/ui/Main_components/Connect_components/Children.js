@@ -5,7 +5,8 @@ import ContentAreaMain from '../library/ContentAreaMain';
 
 const aboutContent = (
     <div>
-      <p>Mission: The Children’s Ministry seeks to serve the church by Educating Children, Equipping Parents, and Engaging Volunteers so that the Kingdom of God might be glorified.</p><br/>
+      <p>Mission:</p><br/>
+      <p>The Children’s Ministry seeks to serve the church by Educating Children, Equipping Parents, and Engaging Volunteers so that the Kingdom of God might be glorified.</p><br/><br/>
       <p>Vision:</p><br/>
       <p>We will educate children by teaching the Word in an environment that is inviting, compelling, and age-appropriate.</p><br/>
       <p>We will equip parents by partnering with them to encouraging the spiritual development of their children.</p><br/>
@@ -15,8 +16,8 @@ const aboutContent = (
 
 const Children = () => (
     <div id = "children-container" className="page-container">
-        <Banner title="Children's Ministry" />
-        <ContentAreaMain id="about-childrens-ministry" title="About" textPosition="text-left" content={aboutContent} />
+      <Banner title="Children's Ministry" parallaxImage="/assets/img/children-bg.jpg" />
+        <ContentAreaMain position="no-parallax" id="about-childrens-ministry" title="About" content={aboutContent} />
     </div>
 )
 

@@ -12,10 +12,8 @@ import Youth from './Main_components/Connect_components/Youth'
 import Serve from './Main_components/Connect_components/Serve'
 import Membership from './Main_components/Connect_components/Membership'
 import AdultSeminar from './Main_components/Learn_components/AdultSeminar'
-// import Connect from './Main_components/Connect'
 import Missions from './Main_components/Missions'
-// import Learn from './Main_components/Learn'
-// import Contact from './Main_components/Contact'
+import Contact from './Main_components/Contact'
 
 import homeStyles from '../../styling/components/_home.scss'
 import aboutStyles from '../../styling/components/_about.scss'
@@ -38,9 +36,7 @@ const Main = () => (
       <Route path='/membership' component={Membership} style={''}/>
       <Route path='/missions' component={Missions}/>
       <Route path='/adultseminar' component={AdultSeminar}/>
-      {/* <Route path='/connect' component={Connect}/>
-      <Route path='/learn' component={Learn}/>
-      <Route path='/contact' component={Contact}/> */}
+      <Route path='/contact' component={Contact}/> 
     </Switch>
   </main>
 )

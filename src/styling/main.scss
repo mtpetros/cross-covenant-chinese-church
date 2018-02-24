@@ -22,6 +22,23 @@ main {
         font-size: 35px;
     }
 
+    h3 {
+      font-family: 'Spectral SC', serif;
+      font-size: 28px;
+    }
+
+    ul {
+      li {
+        list-style: square outside;
+        font-size: 22px;
+        margin: 0 0 15px 10px;
+      }
+    }
+
+    a {
+      color: white;
+    }
+
     .page-container {
         .head-banner {
             background-attachment: fixed;
@@ -59,6 +76,10 @@ main {
                 font-size: 22px;
                 line-height: 25px;
             }
+        }
+
+        .content-area-main {
+          padding-top: 90px;
         }
 
         #content-area-contact {
