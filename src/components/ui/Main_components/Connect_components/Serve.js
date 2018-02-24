@@ -18,7 +18,7 @@ const serviceAreasContent = (
 
 const Serve  = () => (
     <div id = "serve-container" className="page-container">
-        <Banner title="Serve" />
+      <Banner title="Serve" parallaxImage="/assets/img/serve-bg.jpg"/>
         <ContentAreaMain position="no-parallax" id="about-serving" title="About" content={serviceAreasContent} />
     </div>
 )

@@ -1,6 +1,11 @@
 #home-container {
     .head-banner {
         background-image: url('/assets/img/main-banner-bg.jpg');
+    
+      .banner-contents {
+        background-color: rgba(80,4,0,0.6);
+        padding: 3px;
+      }  
     }
     
     .content-area-primary {

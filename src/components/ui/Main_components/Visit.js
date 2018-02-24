@@ -91,19 +91,18 @@ const whatToExpectContent = (
 const Visit = () => (
     <div id = "visit-container" className="page-container">
 
-    <Banner title="Visit Our Church" />
-    <ContentAreaMain position="no-parallax" id="time-location" title="Time and Location" content={timeAndLocationContent} />
+      <Banner title="Visit Our Church" parallaxImage="/assets/img/visit-bg.jpg"/>
+      <ContentAreaMain position="no-parallax" id="time-location" title="Time and Location" content={timeAndLocationContent} />
 
+      <div id="location-map">
+      <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1728.793319629065!2d-80.73365487415258!3d35.119301309392924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885426adea27fd8d%3A0x91f1b808e86f6148!2sChrist+Covenant+Church!5e0!3m2!1sen!2sus!4v1512217607741" position="static" width="100%" height="100%" allowfullscreen></Iframe>
+      </div>
 
-    <div id="location-map">
-    <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1728.793319629065!2d-80.73365487415258!3d35.119301309392924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885426adea27fd8d%3A0x91f1b808e86f6148!2sChrist+Covenant+Church!5e0!3m2!1sen!2sus!4v1512217607741" position="static" width="100%" height="100%" allowfullscreen></Iframe>
-    </div>
+       <ContentAreaMain position="no-parallax" id="what-to-expect" title="What to Expect" content={whatToExpectContent} /> 
 
-     <ContentAreaMain position="no-parallax" id="what-to-expect" title="What to Expect" content={whatToExpectContent} /> 
-
-    <div className="content-area" id="content-area-contact">
-        <div><p>ph: (123) 456-78910</p></div><div><p>physical address: 123 Happy Ln. Matthew, NC 28226</p></div><div><p>mailing address: 123 Happy Ln. Matthew, NC 28226</p></div>
-    </div>
+      <div className="content-area" id="content-area-contact">
+          <div><p>ph: (123) 456-78910</p></div><div><p>physical address: 123 Happy Ln. Matthew, NC 28226</p></div><div><p>mailing address: 123 Happy Ln. Matthew, NC 28226</p></div>
+      </div>
     </div>
 )
 
