@@ -28,16 +28,15 @@ const Home = () => (
             <div className="content-area secondary-child" id="content-area-times">
                 <h2>Meeting Times</h2>
                 <div id="times-container">
-                    <p>Sunday School - 9:00am</p>
-                    <p>Sunday Worship - 9:30am</p>
-                    <p>Wednesday Fellowship - 6:30pm</p>
+                    <p>Sunday School - 9:00am - 10:15am</p>
+                    <p>Sunday Worship - 10:45am - 12:00pm</p>
                 </div>
             </div>
 
             <div className="content-area secondary-child" id="content-area-location">
                 <h2>Location</h2>
                 <div id="location-container">
-                    <p>We meet on Sunday mornings in the chapel at Christ Covenant Church in Matthews, NC.</p>
+                    <p>We meet on Sunday mornings in the chapel in the Family Life Center at Christ Covenant Church in Matthews, NC.</p>
                 </div>
             </div>
         </div>

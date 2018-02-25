@@ -22,7 +22,7 @@ const youthContent = (
 
 const Youth = () => (
     <div id = "youth-container" className="page-container">
-      <Banner title="Youth" />
+      <Banner title="Youth" parallaxImage="/assets/img/youthgroup-bg.jpg"/>
       <ContentAreaMain position="no-parallax" id="youth" title="Youth" content={youthContent} />
     </div>
 )
